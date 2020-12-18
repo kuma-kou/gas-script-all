@@ -1,8 +1,8 @@
 function createSheet() {
   // テンプレートファイル
-   var TemplateFile = DriveApp.getFileById('1Q4Z_m4HNcOwEJdTGNAyBBMSMGZgnSP3BToc2RARFSkQ');
+   var TemplateFile = DriveApp.getFileById('ファイルID');
   // 出力フォルダ
-   var OutputFolder = DriveApp.getFolderById('1jDbL915r3yLn9gjGZE9-Bd7rZZGXH9z0');
+   var OutputFolder = DriveApp.getFolderById('フォルダID');
   // 出力ファイル名
    var OutputFileName = TemplateFile.getName().replace('_template', '')+'_'+Utilities.formatDate(new Date(), 'JST', 'yyyyMM')
    
